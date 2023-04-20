@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: white;
+    padding: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #010e1b;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+   padding: 0rem 2rem;
+}
+
+nav .logo{
+    color: #010e1b;
+    padding: 0rem 2rem;
+    font-size: 2rem;
+}
+
+nav .fa-bars{
+    color: #010e1b;
+    font-size: 2rem;
+    display: none;
+}
+
+nav .fa-xmark{
+    color: #010e1b;
+    font-size: 2rem;
+    display: none;
+    float: right;
+}
+.navdiv{
+    height: 25%;
+    width: 25%;
+    background-color: #08bd27;
+    float: right;
+    display: none;
+ }
+
+.land{
+    height: 90%;
+    width: 100%;
+    background-color: #010e1b;
+    display: flex;
+    margin-top: 2rem;
+    color: white;
+}
+ .desc{
+    height: 100%;
+    width: 60%;
+    text-align: center;
+    padding-top: 16rem;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .pict{
+ height: 100%;
+ width: 40%;
+ background-color: yellow;
+ }
+
+ .desc .name{
+    font-size: 2.5rem;
+ }
+ .desc .title{
+    font-size: 3.5rem;
+ }
+ .desc .details{
+    font-size: 2rem;
+ }
+
+ .hireme {
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #010e1b;
+    background-color: white;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hireme:hover {
+    background-color: lightslategray;
+  }
+  
+
+
+@media (max-width:900px){
+    nav li{
+       padding: 0rem 1rem;
+    }nav .logo{
+        padding: 0rem 1rem;
+    }
+
+}
+
+@media (max-width:665px){
+    nav .fa-bars{
+        display: inline-block;
+        float: right;
+    }
+
+    nav li{
+       display: none;
+    }
+
+}
