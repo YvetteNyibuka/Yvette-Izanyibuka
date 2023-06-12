@@ -1,0 +1,109 @@
+#about{
+    background-color: #53c228;
+    color: white;
+    font-family: cursive;
+}
+.about{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about>div{
+    width: 49%;
+    padding: 5rem;
+    background-color: #284cc2;
+}
+
+/* .about .picture{
+    padding-top: 5rem;
+    padding-left: 15rem;
+    width: 50%;
+    /* background-color: blue; */
+/* } */
+/* .about .descript{
+    padding-right: 5;
+    padding-top: 10rem;
+    width: 50%;
+    height: 100vh;
+    /* background-color: aqua; */
+/* } */
+/* .picture img{
+    width: 73%;
+}
+.knowme{
+    font-weight: bolder;
+} */
+
+.cv{display: inline-block;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        font-weight: bold;
+        color: #020306;
+        background-color: white;
+        border: none;
+        border-radius: 7rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      
+}
+.cv:hover {
+    background-color: lightslategray;
+  }
+#icon{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  /* @media (max-width: 1115px){ 
+    .about .picture{
+        padding-top: 5rem;
+        padding-left: 3rem;
+        width: 50%;
+        height: 100%;
+    } 
+    .picture img{
+        height: 90%;
+        width: 80%;
+    }
+    .about .descript{
+        padding-right: 2rem;
+        padding-top: 8rem;
+        padding-left: 2rem;
+
+    } 
+  } */
+
+  @media (max-width: 375px){
+    .about{
+        flex-direction: column;
+    }
+    .about>div{
+        width: 100%;
+        height: 20rem;
+        background-color: #284cc2;
+    }
+    /* .about .picture{
+        padding-left: 2rem;
+        padding-top: 0;
+        height: 50%;
+        width: 100%;
+    }  */
+/* 
+    .about .descript{
+        padding-top: 0;
+        padding-left: 1rem;
+        padding-right: 2rem;
+        background-color: aqua;
+        width: 100%;
+    }  */
+
+    .cv{
+        display: inline-block;
+        padding: 1rem 3rem;
+        font-size: 1rem;
+        border-radius: 2rem;
+      
+}
+    
+  }

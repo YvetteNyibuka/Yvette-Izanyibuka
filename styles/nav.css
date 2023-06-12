@@ -1,43 +1,49 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
-
-nav{
+.mainnav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-right: 2rem;
     background: white;
-    padding: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 5%;
 }
-
+nav{
+    margin-right: 4rem;
+}
 nav a {
     text-decoration: none;
-    color: #010e1b;
-    font-size: 1.5rem;
+    color: #020306;
+    font-size: 1rem;
     font-weight: bolder;
 }
-
 nav ul{
     float: right;
 }
-
 nav li{
     display: inline-block;
-   padding: 0rem 2rem;
+   padding: 0rem 3rem;
 }
-
 nav .logo{
-    color: #010e1b;
-    padding: 0rem 2rem;
-    font-size: 2rem;
+    color: #020306;
+    padding: 0rem rem;
+    font-size: 1rem;
 }
 
 nav .fa-bars{
-    color: #010e1b;
+    color: #020306;
     font-size: 2rem;
     display: none;
 }
 
 nav .fa-xmark{
-    color: #010e1b;
+    color: #020306;
     font-size: 2rem;
     display: none;
     float: right;
@@ -49,55 +55,6 @@ nav .fa-xmark{
     float: right;
     display: none;
  }
-
-.land{
-    height: 90%;
-    width: 100%;
-    background-color: #010e1b;
-    display: flex;
-    margin-top: 2rem;
-    color: white;
-}
- .desc{
-    height: 100%;
-    width: 60%;
-    text-align: center;
-    padding-top: 16rem;
-    font-family: 'Times New Roman', Times, serif;
- }
- .pict{
- height: 100%;
- width: 40%;
- background-color: yellow;
- }
-
- .desc .name{
-    font-size: 2.5rem;
- }
- .desc .title{
-    font-size: 3.5rem;
- }
- .desc .details{
-    font-size: 2rem;
- }
-
- .hireme {
-    display: inline-block;
-    padding: 1rem 3rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #010e1b;
-    background-color: white;
-    border: none;
-    border-radius: .3rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .hireme:hover {
-    background-color: lightslategray;
-  }
-  
 
 
 @media (max-width:900px){

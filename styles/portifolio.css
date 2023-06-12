@@ -1,0 +1,79 @@
+#portifolio{
+    background-color: #020306;
+    color: white;
+    font-family: cursive;
+   
+}
+h3{
+    margin-left: 40rem;
+}
+.portfolio{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding-top: 30rem ;
+ 
+}
+.up{
+    height: 30%;
+    width: 88%;
+    display: flex;
+    margin: 6rem 0rem 0rem 5rem;
+   
+}
+.down{
+    width: 88%;
+    height: 30%;
+    display: flex;
+    margin: 2rem 0rem 0rem 5rem;
+}
+ .up .project{
+    margin: 0rem 2rem;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+
+}
+.down .project{
+    margin: 0rem 2rem;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+  
+}
+.project #project1{
+    padding: 6rem 7rem;
+    font-size: 1.2rem;
+    color: #020306;
+    
+}
+.project #project1 a{
+  text-decoration: none;
+  color: #020306;
+  
+}
+.project #project2{
+    padding: 6rem 3rem;
+    font-size: 1.2rem;
+    color: #020306;
+}
+.project #project2 a{
+    text-decoration: none;
+    color: #020306;
+    
+  }
+
+.down #project3{
+    padding: 6rem 7rem;
+    font-size: 1.2rem;
+    color: #020306;
+}
+.project #project3 a{
+    text-decoration: none;
+    color: #020306;
+    
+}
+
+/* @media (max-width: 1110px){
+    margin-top: 
+} */

@@ -1,0 +1,56 @@
+.login{
+	height: 100%;
+	width: 100%;
+	background-color: #020306;
+	padding: 8rem 0rem 8rem 0rem;
+	font-family: cursive;
+}
+
+.login h1{
+	color: #020306;
+	text-decoration: solid;
+}
+
+.login form{
+	background-color: white;
+	height: 50%;
+	width: 20rem;
+	margin-left: 30rem;
+	padding-left: 2rem;
+	border-style: solid;
+	margin-top: 4rem;
+	padding-top: 2rem;
+
+}
+
+.textbox{
+	height: 2rem;
+	width: 14rem;
+	border-style: solid;
+	border-color: #020306;
+	margin: 0rem 0rem 1rem;
+	border-top: hidden;
+	border-right: hidden;
+	border-left: hidden;
+	font-size: 1.2rem;
+}
+.submit{
+	border-style: solid;
+	border-radius: .5rem;
+	width: 6rem;
+	height: 2rem;
+	font-size: 1rem;
+}
+@media (max-width: 1115px){
+	.login form{
+		background-color: white;
+		height: 50%;
+		width: 20rem;
+		margin-left: 20rem;
+		padding-left: 2rem;
+		border-style: solid;
+		margin-top: 4rem;
+		padding-top: 2rem;
+	
+	}
+}
