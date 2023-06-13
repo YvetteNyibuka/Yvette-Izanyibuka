@@ -1,5 +1,5 @@
 #about{
-    background-color: #53c228;
+    background-color: #020306;
     color: white;
     font-family: cursive;
 }
@@ -11,29 +11,14 @@
 }
 .about>div{
     width: 49%;
-    padding: 5rem;
-    background-color: #284cc2;
+}
+.knowme, .location, .fas{
+    padding: 3%;
 }
 
-/* .about .picture{
-    padding-top: 5rem;
-    padding-left: 15rem;
-    width: 50%;
-    /* background-color: blue; */
-/* } */
-/* .about .descript{
-    padding-right: 5;
-    padding-top: 10rem;
-    width: 50%;
-    height: 100vh;
-    /* background-color: aqua; */
-/* } */
-/* .picture img{
+ .picture img{
     width: 73%;
 }
-.knowme{
-    font-weight: bolder;
-} */
 
 .cv{display: inline-block;
         padding: 1rem 3rem;
@@ -47,6 +32,10 @@
         transition: background-color 0.3s ease;
       
 }
+
+.about .descript{
+    padding-top: 10rem;
+}
 .cv:hover {
     background-color: lightslategray;
   }
@@ -55,49 +44,22 @@
     width: 2rem;
   }
 
-  /* @media (max-width: 1115px){ 
-    .about .picture{
-        padding-top: 5rem;
-        padding-left: 3rem;
-        width: 50%;
-        height: 100%;
-    } 
-    .picture img{
-        height: 90%;
-        width: 80%;
-    }
-    .about .descript{
-        padding-right: 2rem;
-        padding-top: 8rem;
-        padding-left: 2rem;
-
-    } 
-  } */
-
   @media (max-width: 375px){
     .about{
         flex-direction: column;
     }
     .about>div{
         width: 100%;
-        height: 20rem;
-        background-color: #284cc2;
+        height: 100%;
+        background-color: #020306;
     }
-    /* .about .picture{
-        padding-left: 2rem;
-        padding-top: 0;
-        height: 50%;
-        width: 100%;
-    }  */
-/* 
     .about .descript{
         padding-top: 0;
-        padding-left: 1rem;
-        padding-right: 2rem;
-        background-color: aqua;
+    }
+    .picture img{
         width: 100%;
-    }  */
-
+    }
+   
     .cv{
         display: inline-block;
         padding: 1rem 3rem;
