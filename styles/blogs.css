@@ -1,85 +1,77 @@
-.blogs{
-    height: 100%;
+.blogcontainer{
     background-color: #020306;
-    display: flex;
-    padding: 6rem 3rem 2rem 2rem;
+    height: 85%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    gap: 2rem;
 }
-.blogs>div{
-    flex-basis: 30%;
-    height: 80%;
-    margin-left: 6rem;
-    background-color: white;
-    padding: 1rem;
+
+.blogcontainer>div{
+    height: 95%;
+    padding: 0;
+    box-shadow: 0rem 0rem 1rem gray;
+    margin-top: 5%;
+    background-color: #020306;
 }
+
+.blog1 .photo{
+    height: 60%;
+}
+.blog1 .details{
+    height: 40%;
+    padding: 0 1rem 0 1rem ;
+}
+/* .blog1 .button{
+    height: 15%;
+} */
+
+.blog2 .photo{
+    height: 60%;
+}
+.blog2 .details{
+    height: 40%;
+    padding: 0 1rem 0 1rem ;
+}
+/* .blog2 .button{
+    margin-left: 5rem;
+    height: 15%;
+} */
+
+
+.blog3 .photo{
+    height: 60%;
+}
+.blog3 .details{
+    height: 40%;
+    padding: 0 1rem 0 1rem ;
+}
+/* .blog3 .button{
+    height: 15%;
+} */
 
 .readMore{
-padding: .5rem;
-font-size: 1.3rem;
-color: #020306;
-background-color: white;
-border-style: solid;
-margin-top: 1rem;
-margin-left: 2rem;
-
-}
-@media (max-width:1115px){
-    .blogs{
-        padding: 6rem 2rem 2rem 1rem;
-     
-    }
-    .blogs>div{
-        flex-basis: 90%;
-        padding-top: 2rem;
-        height: 80%;
-        margin-left: 1rem;
-    }
-    .readMore{
-        padding: .5rem;
-        font-size: 1rem;
-        margin-top: 1rem;
-        margin-left: 2rem;
-        
-        }
-   
-}
-
-@media (max-width: 1110px){
-    .blogs{
-        padding: 6rem 3rem 1rem 1rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-     
-    }
-    .blogs>div{
-        padding-top: 2rem;
-        height: 90%;
-        margin-left: 1rem;
-        padding: 2rem 2rem 0 2rem;
-        height: 95%;
-    }
-    #blogg{
-        margin-top: 1.5rem;
-    }
-}
-
-@media (max-width:570px){
-    .blogs{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-     
-    }
-    .blogs>div{
-        flex-basis: 100%;
-        padding-top: 2rem;
-        height: 70%;
-        margin-left: 2rem;
-    }
-    .blogs>div{
-        flex-basis: 30%;
-        height: 50%;
-        margin-left: 6rem;
-        background-color: white;
-        padding: 1rem;
-    }
+    padding: .5rem;
+    font-size: 1rem;
+    color: #020306;
+    background-color: white;
+    border-style: solid;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-left: 2rem;
     
-}
+    }
+
+    @media (max-width:768px){
+        .blogcontainer{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width:375px){
+        .blogcontainer{
+            grid-template-columns: repeat(1, 1fr);
+            margin-top: 100%;
+        }
+    }
+
